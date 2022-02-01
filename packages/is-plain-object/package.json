@@ -12,7 +12,7 @@
     "build:node": "node ../../scripts/build node",
     "build:stable": "node ../../scripts/build stable",
     "build:copy-files": "node ../../scripts/copy-files.js",
-    "release": "yarn build && yarn publish build --access=public"
+    "release": "yarn build && yarn publish build"
   },
   "dependencies": {},
   "engines": {
@@ -28,5 +28,8 @@
     "url": "https://github.com/art1mis/art1mis.git",
     "directory": "packages/is-plain-object"
   },
-  "gitHead": "ee40d433c7fcfabe1d928031bd4ca2c970390514"
+  "gitHead": "ee40d433c7fcfabe1d928031bd4ca2c970390514",
+  "publishConfig": {
+    "access": "public"
+  }
 }
