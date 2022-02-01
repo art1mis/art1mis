@@ -29,5 +29,6 @@
     "type": "git",
     "url": "https://github.com/art1mis/art1mis.git",
     "directory": "packages/is-plain-object"
-  }
+  },
+  "gitHead": "42aa755997a2693d2653b432bcab1877d5777db6"
 }
