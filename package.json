@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "release:build": "lerna run --parallel build",
-    "release:publish": "lerna publish from-package --dist-tag latest --contents build --access=public",
+    "release:publish": "lerna publish from-package --dist-tag latest --contents build",
     "pretty": "prettier --write .",
     "lint": "eslint src/**"
   },

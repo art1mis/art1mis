@@ -12,11 +12,10 @@
     "build:node": "node ../../scripts/build node",
     "build:stable": "node ../../scripts/build stable",
     "build:copy-files": "node ../../scripts/copy-files.js",
-    "release": "yarn build && npm publish build --access=public"
+    "release": "yarn build && yarn publish build --access=public"
   },
   "dependencies": {
-    "@art1mis/is-plain-object": "^1.0.0",
-    "@babel/runtime": "^7.16.7"
+    "@art1mis/is-plain-object": "^1.0.0"
   },
   "engines": {
     "node": ">=12.0.0"
